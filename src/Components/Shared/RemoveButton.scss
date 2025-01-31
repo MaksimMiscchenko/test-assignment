@@ -1,0 +1,15 @@
+.btn{
+  background-image: url('../../assets/icons8-полная-корзина-24.png');
+  background-size: cover;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  background-color: #242424;
+
+}
+.btn:hover{
+  background-color: #303030;
+}

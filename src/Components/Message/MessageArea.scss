@@ -1,0 +1,37 @@
+.messageContainer {
+  box-sizing: border-box;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-right: 5%;
+
+}
+
+.messageArea {
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow: scroll;
+}
+
+.messageArea__send {
+  display: flex;
+
+}
+
+.messageArea__send--input {
+  width: 700px;
+  border-radius: 15px 15px 0 15px;
+  border: none;
+  height: 50px;
+  overflow: hidden;
+  background-color: #303030;
+  padding: 15px;
+  margin-right: 40px;
+}
+
+.messageArea::-webkit-scrollbar {
+  width: 0px;
+}

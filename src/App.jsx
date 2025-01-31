@@ -1,16 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import {Route, Routes, useLocation} from 'react-router-dom';
+import Auth from './pages/Auth/Auth';
+import Chat from './pages/Chat/Chat';
+import Room from "./pages/Room/Room.jsx";
 
-function App() {
-  const [count, setCount] = useState(0)
+import User from "./Components/Header/User.jsx";
 
-  return (
-    <>
-      <div className="App">dsdsd</div>
-    </>
-  )
-}
+const App = () => {
+    const location = useLocation();
 
-export default App
+    return (
+        <>
+            {location.pathname !== "/" && <User/>}
+            <Routes>
+                <Route path="/" element={<Auth/>}/>
+                <Route path="/chat" element={<Chat/>}/>
+                <Route path="/room/:id" element={<Room/>}/>
+            </Routes>
+        </>);
+};
+
+export default App;

@@ -1,0 +1,271 @@
+{
+  "rooms": [
+    {
+      "roomId": "room1",
+      "roomName": "Room Alpha",
+      "adminName": "Earline.Crona",
+      "adminId": 0,
+      "users": [
+        "0",
+        "9",
+        "5",
+        "7",
+        "8",
+        "11",
+        "12"
+      ],
+      "id": "03e2"
+    },
+    {
+      "roomId": "room2",
+      "roomName": "Room Beta",
+      "adminName": "Charlie",
+      "adminId": 3,
+      "users": [
+        "0",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "id": "5e43"
+    },
+    {
+      "roomId": "room3",
+      "roomName": "Room Gamma",
+      "adminName": "Earline.Crona",
+      "adminId": 0,
+      "users": [
+        "0",
+        "12",
+        "13"
+      ],
+      "id": "7d35"
+    },
+    {
+      "roomId": "79eb",
+      "roomName": "My channel",
+      "adminName": "Earline.Crona",
+      "adminId": 0,
+      "users": [
+        "0",
+        "7",
+        "8"
+      ],
+      "id": "b0f3"
+    },
+    {
+      "roomId": "20bf",
+      "roomName": "New channel",
+      "adminName": "Earline.Crona",
+      "adminId": 0,
+      "users": [
+        "0",
+        "6",
+        "10"
+      ],
+      "id": "06e8"
+    }
+  ],
+  "users": [
+    {
+      "userId": "0",
+      "userName": "Earline.Crona"
+    },
+    {
+      "userId": "1",
+      "userName": "Dulce.Bartell"
+    },
+    {
+      "userId": "2",
+      "userName": "Leila62"
+    },
+    {
+      "userId": "3",
+      "userName": "Johnson71"
+    },
+    {
+      "userId": "4",
+      "userName": "Mandy69"
+    },
+    {
+      "userId": "5",
+      "userName": "Bonnie.Romaguera"
+    },
+    {
+      "userId": "6",
+      "userName": "Tony_Graham94"
+    },
+    {
+      "userId": "7",
+      "userName": "Kariane68"
+    },
+    {
+      "userId": "8",
+      "userName": "Christine6"
+    },
+    {
+      "userId": "9",
+      "userName": "Roy11"
+    },
+    {
+      "userId": "10",
+      "userName": "Raymond.Smitham"
+    },
+    {
+      "userId": "11",
+      "userName": "Tevin_Kutch99"
+    },
+    {
+      "userId": "12",
+      "userName": "Duane76"
+    },
+    {
+      "userId": "13",
+      "userName": "Anabelle_Mohr77"
+    },
+    {
+      "userId": "14",
+      "userName": "Sabrina_Langosh16"
+    }
+  ],
+  "messages": [
+    {
+      "id": "a1b8",
+      "messageId": "m6jd32h9",
+      "content": "Hey guys! How's your day going?",
+      "timestamp": "2025-01-31T10:15:00Z",
+      "userId": 0,
+      "roomId": "room1",
+      "userName": "Earline.Crona"
+    },
+    {
+      "id": "a1c9",
+      "messageId": "m6jd33j4",
+      "content": "Hi Earline! Everything's going great, how about you?",
+      "timestamp": "2025-01-31T10:16:00Z",
+      "userId": 3,
+      "roomId": "room1",
+      "userName": "Charlie"
+    },
+    {
+      "id": "a1d5",
+      "messageId": "m6jd35k7",
+      "content": "I'm doing well too, just a little tired. Been working a lot lately.",
+      "timestamp": "2025-01-31T10:17:00Z",
+      "userId": 0,
+      "roomId": "room1",
+      "userName": "Earline.Crona"
+    },
+    {
+      "id": "b1f7",
+      "messageId": "m6jd38f2",
+      "content": "Same here! Can't wait for the weekend to rest. Got any plans?",
+      "timestamp": "2025-01-31T10:18:00Z",
+      "userId": 3,
+      "roomId": "room1",
+      "userName": "Charlie"
+    },
+    {
+      "id": "c1a1",
+      "messageId": "m6jd39r6",
+      "content": "I'm going to visit my family this weekend, looking forward to it!",
+      "timestamp": "2025-01-31T10:19:00Z",
+      "userId": 2,
+      "roomId": "room1",
+      "userName": "David"
+    },
+    {
+      "id": "d1b2",
+      "messageId": "m6jd42w5",
+      "content": "That sounds nice! I’m planning to catch up on some TV shows.",
+      "timestamp": "2025-01-31T10:20:00Z",
+      "userId": 4,
+      "roomId": "room1",
+      "userName": "Anna"
+    },
+    {
+      "id": "e2c3",
+      "messageId": "m6jd45g7",
+      "content": "Hey everyone! Can we talk about the new project ideas?",
+      "timestamp": "2025-01-31T10:22:00Z",
+      "userId": 5,
+      "roomId": "room2",
+      "userName": "Emily"
+    },
+    {
+      "id": "f3d4",
+      "messageId": "m6jd46t8",
+      "content": "Sure! I’ve been thinking about some new features we could add.",
+      "timestamp": "2025-01-31T10:23:00Z",
+      "userId": 6,
+      "roomId": "room2",
+      "userName": "Michael"
+    },
+    {
+      "id": "g4e5",
+      "messageId": "m6jd49m2",
+      "content": "That sounds promising! Any specific ideas in mind?",
+      "timestamp": "2025-01-31T10:24:00Z",
+      "userId": 7,
+      "roomId": "room2",
+      "userName": "Sophia"
+    },
+    {
+      "id": "h5f6",
+      "messageId": "m6jd50f3",
+      "content": "I think we could integrate a chat feature. What do you think?",
+      "timestamp": "2025-01-31T10:25:00Z",
+      "userId": 8,
+      "roomId": "room2",
+      "userName": "James"
+    },
+    {
+      "id": "i6g7",
+      "messageId": "m6jd53h9",
+      "content": "I love that idea! It could really bring the community together.",
+      "timestamp": "2025-01-31T10:26:00Z",
+      "userId": 9,
+      "roomId": "room2",
+      "userName": "Bobik"
+    },
+    {
+      "id": "j7h8",
+      "messageId": "m6jd54g6",
+      "content": "Totally! Let's start brainstorming some features for it.",
+      "timestamp": "2025-01-31T10:27:00Z",
+      "userId": 10,
+      "roomId": "room2",
+      "userName": "Olivia"
+    },
+    {
+      "id": "k8i9",
+      "messageId": "m6jd57j1",
+      "content": "Sounds like a plan! Let’s meet tomorrow to discuss it more.",
+      "timestamp": "2025-01-31T10:28:00Z",
+      "userId": 11,
+      "roomId": "room2",
+      "userName": "John"
+    },
+    {
+      "id": "e984",
+      "messageId": "m6kryz3r",
+      "content": "Heey!!!",
+      "timestamp": "2025-01-31T13:03:26.779Z",
+      "userId": 0,
+      "roomId": "room1",
+      "userName": "Earline.Crona"
+    },
+    {
+      "id": "c6f9",
+      "messageId": "m6ksnc26",
+      "content": "хех",
+      "timestamp": "2025-01-31T13:22:23.253Z",
+      "userId": 0,
+      "roomId": "room1",
+      "userName": "Earline.Crona"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+.channels {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  padding: 50px 20px 20px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 200px;
+
+
+  &__list {
+    overflow-y: scroll;
+    padding-right: 10px;
+
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    height: 100%;
+    border-right: 3px solid #171616;
+
+  }
+
+  h3 {
+    margin-bottom: 5px;
+    margin-top: 45px;
+  }
+
+  &__link {
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+
+    &.loading {
+      height: 40px;
+      background: linear-gradient(
+                      90deg,
+                      #454555 25%,
+                      #454555 50%,
+                      #32323a 75%
+      );
+      background-size: 200% 100%;
+      animation: loading 1s infinite;
+      border-radius: 4px;
+
+    }
+
+    @keyframes loading {
+      0% {
+        background-position: 200% 0;
+      }
+      100% {
+        background-position: -200% 0;
+      }
+    }
+
+    &:hover {
+      background-color: #303030;
+      border-radius: 15px;
+    }
+  }
+}
+
+.channels__list::-webkit-scrollbar {
+  width: 0px;
+}
+

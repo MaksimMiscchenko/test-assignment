@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+  position: absolute;
+    top: 30%;
+    right: 80px;
+    font-size: 35px;
+  }
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    font-size: 20px;
+  }
+}

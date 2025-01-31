@@ -1,0 +1,30 @@
+.message {
+  background: #2c2f33;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  max-width: 60%;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #b9bbbe;
+    margin-bottom: 5px;
+  }
+
+  &__username {
+    font-weight: bold;
+  }
+
+  &__time {
+    font-style: italic;
+  }
+
+  &__content {
+    font-size: 14px;
+  }
+}
